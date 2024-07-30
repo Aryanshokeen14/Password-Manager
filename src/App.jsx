@@ -8,7 +8,7 @@ function App() {
    
 
     <Navbar/>
-    <div><hr className='border-gray-800'/></div>
+    
       
     <Manager/>
    

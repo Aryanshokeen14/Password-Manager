@@ -1,7 +1,8 @@
 import React from 'react'
-
+//m
 const Navbar = () => {
   return (
+    <>
     <nav className='bg-black text-white  flex justify-between px-4 items-center h-14'>
         <div className="logo hover:cursor-pointer font-bold text-white text-2xl">
                     <span className='text-green-500'> &lt;</span>
@@ -16,6 +17,8 @@ const Navbar = () => {
            
         </ul>
     </nav>
+    <div><hr className='border-gray-800'/></div>
+    </>
   )
 }
 
